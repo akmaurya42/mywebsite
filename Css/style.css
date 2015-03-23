@@ -1,0 +1,227 @@
+/* CSS Document */
+.chromestyle{
+width: 99%;
+
+}
+
+.chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle ul{
+
+width: 100%;
+
+}
+
+.chromestyle ul li{
+display: inline;
+}
+
+.chromestyle ul li a{
+color:#FFFFFF;
+font-weight:bold;
+	margin: 0;
+	text-decoration: none;
+	padding-top:17px;
+	padding-right:20px;
+	padding-bottom: 17px;
+	padding-left:20px;
+
+}
+
+
+.chromestyle ul li a:hover{
+color:#FFFFFF;
+text-decoration: none;
+background-color:#404040;
+width:200px;
+
+
+}
+
+.chromestyle ul li a:hover, .chromestyle ul li a.selected{ /*script dynamically adds a class of "selected" to the current active menu item*/
+
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+top: 0;
+ /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:14px Arial, Helvetica, sans-serif;
+line-height:28px;
+
+z-index:100;
+background-color:#b01215;
+width: 100px;
+visibility: hidden;
+}
+
+
+.dropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+color:#000000;
+border-bottom: 1px solid #333333; /*THEME CHANGE HERE*/
+padding: 2px 0;
+text-decoration: none;
+color:#333333;
+}
+ 
+* html .dropmenudiv a{ /*IE only hack*/
+width: 100%;
+color:#333333; 
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color:#9f0f0f;
+color:#ffffff;
+}
+*{
+padding:0px;
+margin:0px;
+}
+body{
+background-image:url(../image/bg.jpg);
+background-repeat:repeat-x;
+}
+
+div.holder{
+margin:auto;
+width:1024px;
+}
+div.image{
+background-image:url(../image/image.jpg);
+width:1024px;
+height:1700px;
+position:absolute;
+top:0px;
+margin-left:0px;
+}
+div.navi{
+	font:14px Arial, Helvetica, sans-serif;
+	position:absolute;
+	top:169px;
+	margin-left:100px;
+	width:900px;
+	color:#FFFFFF;
+	
+}
+div.navi2{
+color:#FFFFFF;
+font:14px Arial, Helvetica, sans-serif;
+position:absolute;
+top:1380px;
+margin-left:200px;
+width:750px;
+font-weight:bold;
+}
+div.navi2 a{
+text-decoration:none;
+font-weight:bold;
+color:#FFFFFF;
+}
+div.navi2 a:hover{
+color:#CCCCCC;
+}
+div.flower{
+background-image:url(../image/flower.png);
+
+position:absolute;
+top:140px;
+margin-left:20px;
+width:69px;
+height:72px;
+}
+div.logo{
+
+
+position:absolute;
+top:20px;
+margin-left:20px;
+}
+div.flash{
+position:absolute;
+top:220px;
+margin-left:12px;
+}
+div.about{
+color:#666666;
+font:12px Arial, Helvetica, sans-serif;
+width:984px;
+
+position:absolute;
+top:680px;
+margin-left:20px;
+}
+div.box{
+
+position:absolute;
+top:1115px;
+margin-left:20px;
+}
+div.contact{
+font:14px Arial, Helvetica, sans-serif;
+position:absolute;
+top:1430px;
+margin-left:50px;
+color:#FFFFFF;
+}
+div.designer{
+font:14px Arial, Helvetica, sans-serif;
+position:absolute;
+top:1645px;
+margin-left:730px;
+color:#FFFFFF;
+}
+div.designer a{
+text-decoration:underline;
+color:#FFFFFF;
+font-weight:bold;
+}
+div.designer a:hover{
+color:#333333;
+}
+div.icon{
+
+position:absolute;
+top:45px;
+margin-left:730px;
+color:#FFFFFF;
+}
+div.title{
+font:14px Arial, Helvetica, sans-serif;
+position:absolute;
+top:690px;
+margin-left:20px;
+color:#C7261C;
+font-weight:bold;
+}
+div.pagetext{
+font:12px Arial, Helvetica, sans-serif;
+position:absolute;
+top:820px;
+margin-left:20px;
+width:950px;
+}
+div.pagetext a{
+text-decoration:underline;
+color:#d3251e;
+
+}
+div.pagetext a:hover{
+color:#333333;
+}
+div.enquirypic{
+position:absolute;
+top:800px;
+margin-left:600px;
+}
